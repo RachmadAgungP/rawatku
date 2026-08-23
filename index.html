@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="/">
+  <base href="/rawatku/">
   <script>
     (function () {
       var baseTag = document.querySelector('base');
-      if (baseTag.getAttribute('href') === '/') {
+      if (baseTag.getAttribute('href') === '/rawatku/') {
         var path = window.location.pathname;
         if (window.location.hostname.includes('github.io')) {
           var repoName = path.split('/')[1];
@@ -108,7 +108,7 @@
 
   <script>
     window.addEventListener('load', function(ev) {
-      var swVersion = `"40272357" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */`;
+      var swVersion = `"3929413031" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */`;
       if (swVersion.includes('{{')) swVersion = null;
 
       _flutter.loader.loadEntrypoint({
